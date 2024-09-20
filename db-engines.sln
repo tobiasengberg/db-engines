@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "redis", "redis\redis.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mongodb", "mongodb\mongodb.csproj", "{26A913DB-107F-428C-94DB-FC7C820B57D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "neo4j", "neo4j\neo4j.csproj", "{F70A7030-5F09-426C-B94B-24C25DAA8F5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{26A913DB-107F-428C-94DB-FC7C820B57D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26A913DB-107F-428C-94DB-FC7C820B57D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26A913DB-107F-428C-94DB-FC7C820B57D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F70A7030-5F09-426C-B94B-24C25DAA8F5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F70A7030-5F09-426C-B94B-24C25DAA8F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F70A7030-5F09-426C-B94B-24C25DAA8F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F70A7030-5F09-426C-B94B-24C25DAA8F5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
