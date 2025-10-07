@@ -27,4 +27,10 @@ public class ProductRepository : IProductRepository
     {
         await _products.InsertOneAsync(product);
     }
+    
+    public async Task UpdateAsync(string id, Product updatedProduct) =>
+        await _products.ReplaceOneAsync(x => x.Id == id, updatedProduct);
+
+    public async Task RemoveAsync(string id) =>
+        await _products.DeleteOneAsync(x => x.Id == id);
 }
